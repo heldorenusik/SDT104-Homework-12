@@ -21,7 +21,7 @@ const PERIMETER = "perimeter";
 logBonusScopeSnapshot("before any definitions");
 
 // === Subtask 3 — Hoisting test (BEFORE the definitions written below) ===
-console.log("\n--- SubTask 3. Call getCalculation before all the function definitions.");
+console.log("\n--- Call getCalculation before all the function definitions.");
 // Both `getCalculation` and `calculateArea` are *function declarations*, so
 // JavaScript hoists their full definitions to the top of this scope. That is
 // why this call works even though the `function calculateArea` / `function
@@ -86,7 +86,7 @@ function getCalculation(type) {
 }
 
 // === Subtask 3 — Hoisting test (AFTER the definitions) ===
-console.log("\n--- SubTask 3. Call getCalculation after all the function definitions.");
+console.log("\n--- Call getCalculation after all the function definitions.");
 // calculate area of circle
 // Observation: same as before; declarations were already hoisted.
 try {

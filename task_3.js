@@ -13,7 +13,7 @@ greetUser("Alex");
 
 // Subtask 2: Create an object `user` with two methods: `sayHiRegular` and `sayHiArrow`
 const user = {
-    name: "Jordan",
+    name: "Mykola",
     // Regular function: `this` is the call site (the object when called as user.sayHi()).
     sayHiRegular: function () {
         console.log("Hi (regular),", this.name);
