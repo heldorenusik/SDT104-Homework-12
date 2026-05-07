@@ -52,10 +52,12 @@ detachedArrow.call(user);
 console.log("\n--- var vs let after a for loop ---");
 for (var i = 0; i < 3; i++) {
     /* var: one binding shared by the whole function scope */
+    console.log(i)
 }
-console.log("After loop, `var i` is still visible:", i);
+console.log("After loop, `var i` is still visible:", i, "\n");
 for (let j = 0; j < 3; j++) {
     /* let: block-scoped to the for-loop */
+    console.log(j)
 }
 try {
     console.log(j);
